@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;600&display=swap');
+body{
+  background-color: black;
+}
+.form{
+  display:flex;
+  align-items: center;
+  padding: 5px;
+}
+label{
+  width: 250px;
+}
+.text{
+  color:white;
+  font-size: 20px;
+}
+span{
+  color:red;
+}
+img{
+  background-position:center;
+  height:400px;
+  background-size: cover;
+  width: 100%;
+  padding: 0px;
+  margin:0px;
+}
+button{
+  font-weight:bold;
+  font-size:20px;
+  padding: 7px;
+  display: flex;
+  font-family: 'Lora', serif;
+  transition: all 0.25;
+  
+}
+button:hover{
+  background: green;
+  color:white;
+  border-radius: 30px;
+  transform: scale(1.2);
+}
+h3{
+  color:white;
+}
+h3{
+  margin:0px;
+  text-align: center;
+  color: #f7cc06;
+}
+.menu{
+  background: crimson;
+  width: 150px;
+  padding: 0px;
+  margin-left: 0px;
+  position: fixed;
+  top: 0px;
+  margin-top: 10px;
+  border-radius: 5px;
+  }
+p{
+  color:rgb(0 0 0 / 92%);
+  margin:5px;
+  font-size: 20px;
+}
+.item{
+  display: flex;
+  justify-content: space-between;
+}
+
